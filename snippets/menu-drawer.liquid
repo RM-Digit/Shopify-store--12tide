@@ -1,0 +1,51 @@
+<div id="MenuDrawer" class="menu-drawer" data-drawer="true">
+  <div class="menu-drawer__header">
+    <button type="button" class="drawer__close-button js-drawer-close">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+      <span class="icon__fallback-text">Close Menu</span>
+    </button>
+    <a href="{{ routes.cart_url }}" class="menu-drawer-cart-icon mobile-only js-drawer-open-cart js-no-transition" data-icon="{{ settings.cart_icon }}" aria-controls="CartDrawer">
+      <span class="cart-text">{{ 'layout.cart.title' | t }}</span>
+      <span class="cart-link">
+        {%- if settings.cart_icon == 'cart' -%}
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+        {%- else -%}
+          <svg width="22" height="30" viewBox="0 0 22 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="10" width="19" height="18" fill="#345D9D"/>
+            <path d="M22 26.587V8.83443C22 8.27256 21.525 7.82427 20.9375 7.82427H17.125V5.94142C17.125 2.66587 14.3875 0 11 0C7.6125 0 4.875 2.66587 4.875 5.94142V7.82427H1.0625C0.475 7.82427 0 8.27256 0 8.83443V26.587C0 28.4638 1.6 30 3.5625 30H18.4375C20.4 30 22 28.4638 22 26.587ZM7 5.94142C7 3.78362 8.78125 2.03228 11 2.03228C13.2188 2.03228 15 3.7896 15 5.94142V7.82427H7V5.94142ZM19.5938 26.4268C19.5938 27.1664 18.9704 27.7722 18.2018 27.7722H3.7982C3.0296 27.7722 2.40625 27.1664 2.40625 26.4268V10.1249H5.0691V12.8681C5.0691 13.4155 5.52905 13.8582 6.09793 13.8582C6.66681 13.8582 7.12676 13.4155 7.12676 12.8681V10.1249H14.8732V12.8681C14.8732 13.4155 15.3332 13.8582 15.9021 13.8582C16.471 13.8582 16.9309 13.4155 16.9309 12.8681V10.1249H19.5938V26.4268Z" fill="#345D9D"/>
+          </svg>
+        {%- endif -%}
+        <span class="icon__fallback-text">{{ 'layout.cart.title' | t }}</span>
+        <span class="cart-link__bubble{% if cart.item_count > 0 %} cart-link__bubble--visible{% endif %}">
+          <span class="cart-link__count" aria-hidden="true">
+            {{ cart.item_count }}
+          </span>
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="menu-drawer__body">
+    <ul>
+      {%- for link in linklists["main-menu"].links -%}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {%- if link.title == "Shop Snacks" -%}
+      <div class="featured-items">
+        {%- for block in section.blocks -%}
+          {%- for variant in all_products[block.settings.mega_menu_product].variants -%}
+          <div class="featured-item">
+            <a href="{{ variant.url }}">
+              <img class="featured-item-image" src="{{ variant.featured_media.preview_image | img_url: 'master' }}" />
+              <div class="featured-item-title">{{ variant.title }}</div>
+            </a>
+          </div>
+          {%- endfor -%}
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+      {%- endfor -%}
+      {%- for link in linklists["header-right-menu"].links -%}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>

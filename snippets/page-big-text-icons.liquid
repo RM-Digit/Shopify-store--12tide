@@ -1,0 +1,20 @@
+{%- liquid
+  assign blockId = block.id
+  if product
+    assign blockId = block.id | append: product.id
+  endif
+-%}
+
+<div
+  data-section-id="{{ blockId }}"
+  class="big-text-icons {% if block.settings.css_class != blank %}{{ block.settings.css_class }}{% endif %}" style="background-color: {{ block.settings.bg_color }};" data-aos>
+  <div class="big-text-icons--wrapper">
+    <p class="appear-delay">{{ block.settings.main_text }}</p>
+  </div>
+  <div class="big-text-icons--icons">
+    <div class="bti--icon appear-delay-4"><img src="{{ block.settings.icon1 | img_url: 'master' }}"></div>
+    <div class="bti--icon appear-delay-4"><img src="{{ block.settings.icon2 | img_url: 'master' }}"></div>
+    <div class="bti--icon appear-delay-4"><img src="{{ block.settings.icon3 | img_url: 'master' }}"></div>
+    <div class="bti--icon appear-delay-4"><img src="{{ block.settings.icon4 | img_url: 'master' }}"></div>
+  </div>
+</div>

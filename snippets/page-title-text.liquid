@@ -1,0 +1,18 @@
+{%- liquid
+  assign blockId = block.id
+  if product
+    assign blockId = block.id | append: product.id
+  endif
+-%}
+
+<div
+  data-section-id="{{ blockId }}"
+  class="page-title-text" data-aos>
+  <div class="ptt-wrapper" style="background-image: url({{ block.settings.image | img_url: '1400x' }});">
+    <div class="ptt-overlay"></div>
+    <div class="ptt-content">
+      <div class="h1 appear-delay">{{ page.title }}</div>
+      <p class="appear-delay-2">{{ block.settings.subtitle }}</p>
+    </div>
+  </div>
+</div>

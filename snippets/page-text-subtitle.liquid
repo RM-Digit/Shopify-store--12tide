@@ -1,0 +1,24 @@
+{%- if block.settings.top_wave == true -%}
+<svg class="fc-wave hide-on-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="{{ block.settings.bg_color }}" fill-opacity="1" d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,90.7C840,96,960,160,1080,181.3C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+<svg class="fc-wave show-on-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="{{ block.settings.bg_color }}" fill-opacity="1" d="M0,0L60,5.3C120,11,240,21,360,53.3C480,85,600,139,720,133.3C840,128,960,64,1080,53.3C1200,43,1320,85,1380,106.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+{%- endif -%}
+
+<div class="{% if block.settings.css_class != blank %}{{ block.settings.css_class }}{% endif %}" style="background-color: {{ block.settings.bg_color }}; {% if block.settings.bot_margin == true %}margin-bottom: 0;{% endif %}">
+  <div class="text-{{ block.settings.align_text }}">
+    <div class="page-width">
+      <div class="grid">
+        <div class="grid__item" data-aos>
+          {%- if block.settings.subtitle != blank -%}
+            <h5 class="appear-delay">{{ block.settings.subtitle }}</h5>
+          {%- endif -%}
+          {%- if block.settings.title != blank -%}
+            <h3 class="appear-delay">{{ block.settings.title }}</h3>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <div class="rte appear-delay-1">{{ block.settings.text }}</div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

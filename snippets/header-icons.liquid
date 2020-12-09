@@ -1,0 +1,58 @@
+<div class="site-nav site-nav--icons">
+  <div class="site-nav__icons">
+    {% comment %}
+    {%- if shop.customer_accounts_enabled -%}
+      <a class="site-nav__link site-nav__link--icon small--hide" href="{{ routes.account_url }}">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-user" viewBox="0 0 64 64"><path d="M35 39.84v-2.53c3.3-1.91 6-6.66 6-11.41 0-7.63 0-13.82-9-13.82s-9 6.19-9 13.82c0 4.75 2.7 9.51 6 11.41v2.53c-10.18.85-18 6-18 12.16h42c0-6.19-7.82-11.31-18-12.16z"/></svg>
+        <span class="icon__fallback-text">
+          {%- if customer -%}
+            {{ 'layout.customer.account' | t }}
+          {%- else -%}
+            {{ 'layout.customer.log_in' | t }}
+          {%- endif -%}
+        </span>
+      </a>
+    {%- endif -%}
+    {% endcomment %}
+    {%- if section.settings.header_search_enable -%}
+      <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-modal-open-search-modal js-no-transition{% if menu_alignment == 'center' or menu_alignment == 'center-split' %} medium-up--hide{% endif %}">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
+        <span class="icon__fallback-text">{{ 'general.search.title' | t }}</span>
+      </a>
+    {%- endif -%}
+
+    {%- if menu_alignment == 'left'
+       or menu_alignment == 'left-center'
+       or menu_alignment == 'right' -%}
+      <button
+        type="button"
+        class="site-nav__link site-nav__link--icon js-toggle-slide-nav{% if menu_alignment == 'left' or menu_alignment == 'left-center' or menu_alignment == 'right' %} medium-up--hide{% endif %}{% if mobile_menu_style == 'thumb' %} hide{% endif %}">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 64 64"><path d="M7 15h51M7 32h43M7 49h51"/></svg>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">{{ 'general.drawers.navigation' | t }}</span>
+      </button>
+    {%- endif -%}
+
+    {%- unless settings.cart_type == 'sticky' -%}
+      <a href="{{ routes.cart_url }}" class="site-nav__link site-nav__link--icon site-nav__link--cart js-drawer-open-cart js-no-transition" aria-controls="CartDrawer" data-icon="{{ settings.cart_icon }}">
+        <span class="cart-text">{{ 'layout.cart.title' | t }}</span>
+        <span class="cart-link">
+          {%- if settings.cart_icon == 'cart' -%}
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+          {%- else -%}
+            <svg width="22" height="28" viewBox="0 0 22 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="10" width="19" height="18" fill="#345D9D"/>
+              <path d="M22 26.587V8.83443C22 8.27256 21.525 7.82427 20.9375 7.82427H17.125V5.94142C17.125 2.66587 14.3875 0 11 0C7.6125 0 4.875 2.66587 4.875 5.94142V7.82427H1.0625C0.475 7.82427 0 8.27256 0 8.83443V26.587C0 28.4638 1.6 30 3.5625 30H18.4375C20.4 30 22 28.4638 22 26.587ZM7 5.94142C7 3.78362 8.78125 2.03228 11 2.03228C13.2188 2.03228 15 3.7896 15 5.94142V7.82427H7V5.94142ZM19.5938 26.4268C19.5938 27.1664 18.9704 27.7722 18.2018 27.7722H3.7982C3.0296 27.7722 2.40625 27.1664 2.40625 26.4268V10.1249H5.0691V12.8681C5.0691 13.4155 5.52905 13.8582 6.09793 13.8582C6.66681 13.8582 7.12676 13.4155 7.12676 12.8681V10.1249H14.8732V12.8681C14.8732 13.4155 15.3332 13.8582 15.9021 13.8582C16.471 13.8582 16.9309 13.4155 16.9309 12.8681V10.1249H19.5938V26.4268Z" fill="#345D9D"/>
+            </svg>
+          {%- endif -%}
+          <span class="icon__fallback-text">{{ 'layout.cart.title' | t }}</span>
+          <span class="cart-link__bubble{% if cart.item_count > 0 %} cart-link__bubble--visible{% endif %}">
+            <span class="cart-link__count" aria-hidden="true">
+              {{ cart.item_count }}
+            </span>
+          </span>
+        </span>
+      </a>
+    {%- endunless -%}
+  </div>
+</div>

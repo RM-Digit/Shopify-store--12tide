@@ -1,0 +1,33 @@
+{%- liquid
+  assign blockId = block.id
+  if product
+    assign blockId = block.id | append: product.id
+  endif
+-%}
+
+<div
+  data-section-id="{{ blockId }}"
+  class="three-columns-img-text {% if block.settings.css_class != blank %}{{ block.settings.css_class }}{% endif %}" style="background-color: {{ block.settings.bg_color }};" data-aos>
+  <div class="page-width">
+    <div class="three-cols-wrapper">
+      <div class="three-cols--col-1 appear-delay-2">
+        <img src="{{ block.settings.image_1 | img_url: 'master' }}">
+        <h4>{{ block.settings.title_1 }}</h4>
+        <p>{{ block.settings.text_1 }}</p>
+      </div>
+      <div class="three-cols--col-2 appear-delay-2">
+        <img src="{{ block.settings.image_2 | img_url: 'master' }}">
+        <h4>{{ block.settings.title_2 }}</h4>
+        <p>{{ block.settings.text_2 }}</p>
+      </div>
+      <div class="three-cols--col-3 appear-delay-2">
+        <img src="{{ block.settings.image_3 | img_url: 'master' }}">
+        <h4>{{ block.settings.title_3 }}</h4>
+        <p>{{ block.settings.text_3 }}</p>
+      </div>
+      <div class="three-cols--spacer"></div>
+    </div>
+  </div>
+</div>
+
+<svg style="position: relative; z-index: 2;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="{{ block.settings.bg_color }}" fill-opacity="1" d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,90.7C840,96,960,160,1080,181.3C1200,203,1320,181,1380,170.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>

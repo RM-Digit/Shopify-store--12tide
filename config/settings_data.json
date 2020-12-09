@@ -1,0 +1,2125 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#333333",
+    "color_button": "#345d9d",
+    "color_button_text": "#ffffff",
+    "color_sale_price": "#345d9d",
+    "color_sale_tag": "#345d9d",
+    "color_sale_tag_text": "#ffffff",
+    "color_cart_dot": "#345d9d",
+    "color_cart_dot_text": "#ffffff",
+    "color_alt_bg": "#6aaae4",
+    "color_alt_text": "#ffffff",
+    "color_announcement": "#345d9d",
+    "color_announcement_text": "#ffffff",
+    "color_newsletter": "#345d9d",
+    "color_newsletter_text": "#fff",
+    "color_drawer_background": "#345d9d",
+    "color_drawer_text": "#ffffff",
+    "color_image_text": "#ffffff",
+    "color_image_overlay": "#333333",
+    "color_image_overlay_opacity": 30,
+    "color_image_overlay_text_shadow": 10,
+    "color_small_image_bg": "rgba(0,0,0,0)",
+    "color_large_image_bg": "rgba(0,0,0,0)",
+    "type_header_font_family": "helvetica_n9",
+    "type_header_capitalize": true,
+    "type_header_spacing": 0,
+    "type_header_base_size": 36,
+    "type_header_line_height": 1,
+    "type_base_font_family": "avenir_next_n4",
+    "type_product_capitalize": true,
+    "type_base_spacing": 0,
+    "type_base_size": 24,
+    "type_base_line_height": 1.6,
+    "button_type_style": "caps",
+    "button_style": "round",
+    "type_navigation_size": 24,
+    "animate_images": true,
+    "animate_page_transitions": true,
+    "logo_loader_image": "shopify:\/\/shop_images\/Group_3.png",
+    "desktop_loader_width": 800,
+    "mobile_loader_width": 400,
+    "product_hover_details": false,
+    "product_hover_image": false,
+    "product_image_scatter": false,
+    "product_grid_image_size": "natural",
+    "vendor_enable": false,
+    "product_save_amount": false,
+    "product_save_type": "dollar",
+    "product_color_swatches": false,
+    "collection_color_swatches": false,
+    "additional_content_style": "expandable",
+    "product_content_1": "ingredients",
+    "product_content_2": "packaging",
+    "product_content_3": "shipping-returns",
+    "trust_image": "shopify:\/\/shop_images\/certification_logos.jpg",
+    "product_contact": false,
+    "product_contact_title": "Ask a question",
+    "product_contact_show_phone": false,
+    "enable_product_reviews": true,
+    "enable_product_reviews_collection": true,
+    "quick_shop_enable": false,
+    "quick_shop_style": "full",
+    "product_image_size": "large",
+    "product_image_type": "slider",
+    "product_zoom_enable": false,
+    "product_shipping_callout": "Free shipping on orders $50+",
+    "sku_enable": false,
+    "inventory_enable": false,
+    "inventory_threshold": 10,
+    "inventory_transfers_enable": false,
+    "social_enable": false,
+    "cart_type": "drawer",
+    "cart_icon": "bag",
+    "cart_additional_buttons": false,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/12tides\/",
+    "social_facebook_link": "https:\/\/facebook.com\/12tides\/",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_snapchat_link": "",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/fav-icon.png",
+    "search_type": "product",
+    "checkout_header_image": "shopify:\/\/shop_images\/checkout.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_8568c652-f79b-4851-b859-1d7768bb6d70.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Fjalla One",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#6aaae4",
+    "checkout_button_color": "#345d9d",
+    "checkout_error_color": "#ff6d6d",
+    "animate_page_transition_style": "page-logo",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "product_video_style": "muted",
+    "reviews_layout": "full",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "2e67a3ed-264c-4b03-917e-54ec55689afc": {
+            "type": "html",
+            "settings": {
+              "mega_menu_product": "puffed-kelp-chips"
+            }
+          }
+        },
+        "block_order": [
+          "2e67a3ed-264c-4b03-917e-54ec55689afc"
+        ],
+        "settings": {
+          "header_style": "bar",
+          "main_menu_alignment": "center-left",
+          "sticky_index": false,
+          "sticky_collection": false,
+          "header_search_enable": false,
+          "logo": "shopify:\/\/shop_images\/logo_8568c652-f79b-4851-b859-1d7768bb6d70.png",
+          "logo-inverted": "shopify:\/\/shop_images\/logo_8568c652-f79b-4851-b859-1d7768bb6d70.png",
+          "desktop_logo_width": 170,
+          "mobile_logo_width": 140,
+          "logo_hide_mobile": false,
+          "main_menu_link_list": "main-menu",
+          "show_announcement": true,
+          "show_announcement_home_only": false,
+          "announcement_text": "Free shipping on orders $50+"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_newsletter": true,
+          "newsletter_title": "Join the club & save 10%",
+          "newsletter_richtext": "<p>Sign up for our newsletter to receive food-saving tips, edible inspiration and more.<\/p>",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_social_icons": true,
+          "menu": "footer",
+          "show_payment_icons": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "per_row_desktop": 4,
+          "per_row_mobile": "2-flush",
+          "description_bottom": false,
+          "css_class": "collection-coll"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_image_size": "large",
+          "product_image_type": "slider",
+          "product_zoom_enable": false,
+          "enable_video_looping": false,
+          "product_video_style": "muted",
+          "enable_payment_button": false,
+          "product_shipping_callout": "Free shipping on orders $50+",
+          "variant_type": "button",
+          "variant_labels_enable": true,
+          "sku_enable": false,
+          "inventory_enable": false,
+          "inventory_threshold": 10,
+          "inventory_transfers_enable": false,
+          "quantity_enable": true,
+          "surface_pickup_enable": false,
+          "social_enable": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_image": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "post_limit": 9,
+          "blog_show_tag_filter": true,
+          "blog_show_rss": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "blog_show_excerpt": true,
+          "blog_image_size": "landscape"
+        }
+      },
+      "product-sections": {
+        "type": "product-sections",
+        "blocks": {
+          "e611fa0b-275c-4d25-b0f7-045a9aa9064e": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1; top: 0px; overflow: hidden; margin-top: 50px;\" class=\"pdp-top-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/our-impact-top-wave.svg?v=1605048182\" width=\"100%\">\n<\/div>"
+            }
+          },
+          "5440f8bf-499e-4f33-89ad-30ec3c119679": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Images.png",
+              "image_width": 700,
+              "subtitle": "",
+              "title": "Packed with Nutrients and Love",
+              "text": "<p>Packed with vitamins, minerals and brain-healthy Omega 3 fatty acids, our organic kelp is a nutrient-dense, delicious, everyday snack, sustainably grown at regenerative ocean farms in the USA.<\/p>",
+              "button_label": "",
+              "button_style": "primary",
+              "layout": "right",
+              "checklist": "<ul class=\"pdp-nutrient-list\">\n<li>Organic<\/li>\n<li>Plant-Based<\/li>\n<li>Nutrient-Dense<\/li>\n<li>Gluten-Free<\/li>\n<li>No Added Sugars<\/li>\n<li>Baked, Never Fried<\/li>\n<\/ul>",
+              "alt": false,
+              "css_class": "pdp-nutrients"
+            }
+          },
+          "c488a65f-aa32-4e46-ba5b-b0fb29c650c2": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"pdp-white-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>"
+            }
+          },
+          "df6fe8c8-dc24-49ba-a998-9803b462ee2b": {
+            "type": "collection-slider",
+            "settings": {
+              "title": "Sea the Snacks",
+              "description": "",
+              "collection": "all",
+              "per_row": "medium",
+              "alt": false,
+              "css_class": "pdp-coll"
+            }
+          }
+        },
+        "block_order": [
+          "e611fa0b-275c-4d25-b0f7-045a9aa9064e",
+          "5440f8bf-499e-4f33-89ad-30ec3c119679",
+          "c488a65f-aa32-4e46-ba5b-b0fb29c650c2",
+          "df6fe8c8-dc24-49ba-a998-9803b462ee2b"
+        ],
+        "settings": {}
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "8c568869-566e-48ea-ac03-33158f6c5b18": {
+            "type": "page-title-text",
+            "settings": {
+              "subtitle": "How we found a climate superhero in the ocean - kelp! - and made it into tasty, nutritious, and ocean-friendly snacks.",
+              "image": "shopify:\/\/shop_images\/Daniel_Gorostieta_-_12Tides-67.jpg"
+            }
+          },
+          "d6e839d8-078b-47a5-939e-ffeb782f66ee": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"our-story-top-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>"
+            }
+          },
+          "1600380647349": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Before 12 Tides, our founder, Pat, was working in old-school seafood industries — think large-scale fishing and aquaculture. And what he saw made his stomach churn: overfishing, pollution and coastline destruction.<\/p>",
+              "align_text": "center",
+              "custom_class": "our-story-rte",
+              "narrow_column": true,
+              "enlarge_text": true,
+              "alt": false
+            }
+          },
+          "1558643031646": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Daniel_Gorostieta_-_12Tides-19_1.jpg",
+              "image_width": 700,
+              "subtitle": "",
+              "title": "Turning the Tides",
+              "text": "<p>We knew there had to be a better way — a way to produce foods that are as good for the ocean as they are for us. And there is. Partnering with regenerative ocean farmers in the USA, we founded 12 Tides to create nutrient-dense, sustainable snacks with kelp.<\/p>",
+              "button_label": "",
+              "button_style": "primary",
+              "layout": "right",
+              "alt": false,
+              "css_class": "our-story-turning-tides"
+            }
+          },
+          "b18c6ab6-cde0-4a12-bd40-47a622f8a625": {
+            "type": "page-text-subtitle",
+            "settings": {
+              "bg_color": "#e6ddd0",
+              "top_wave": true,
+              "subtitle": "Why Kelp",
+              "title": "The Superhero of the Ocean",
+              "text": "<p>Kelp is the superhero of the ocean. It removes carbon from the atmosphere 20 times more efficiently than land crops, and it’s low maintenance—what we call “zero input” — requiring no fertilizers, no pesticides, no arable land, and no freshwater to grow. All that, and it’s delicious.<\/p>",
+              "align_text": "center",
+              "css_class": "our-story-why-kelp"
+            }
+          },
+          "d2902c6f-6aaa-4c7c-9ab7-edb4f2463133": {
+            "type": "three-columns-img-text",
+            "settings": {
+              "bg_color": "#e6ddd0",
+              "image_1": "shopify:\/\/shop_images\/12Tides_Web_Icons__North_American_Kelp.png",
+              "title_1": "Farm",
+              "text_1": "Our farmers sustainably grow and harvest organic kelp in Frenchman Bay, Maine.",
+              "image_2": "shopify:\/\/shop_images\/12Tides_Web_Icons__Baked_-_Never_Fried_1.png",
+              "title_2": "Bake",
+              "text_2": "The harvest ships to our kitchen where we bake it into umami-packed, puffed chips.",
+              "image_3": "shopify:\/\/shop_images\/12Tides_Web_Icons__Compostable_Packaging_1.png",
+              "title_3": "Snack",
+              "text_3": "Savvy snackers like you stock up on our chips to help save our oceans.",
+              "css_class": ""
+            }
+          },
+          "fa119f42-634c-4ce5-aff5-bbfe09f2fa20": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "Our Kelp Farmers",
+              "title": "Leaders in sustainable aquaculture",
+              "text": "<p>We partner with Springtide Seaweed in Frenchman Bay, Maine. Founded by Sarah Redmond, Springtide is an industry leader in sustainable aquaculture, growing the highest-quality organic kelp — including 12 Tides’ sugar kelp —  in the cold, clean waters of the North Atlantic Ocean.<\/p><p><\/p>",
+              "button_label": "Our Ocean Activism",
+              "button_link": "shopify:\/\/pages\/our-impact",
+              "image": "shopify:\/\/shop_images\/sarah-springtide_1.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Sarah_1.jpg",
+              "desktop_size": 0,
+              "image_alignment": "center center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "css_class": "our-story-kelp-farmers"
+            }
+          },
+          "4a09dd81-3b0a-4007-a6c2-258b342b9d00": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1; top: -125px;\" class=\"hide-on-mobile\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>"
+            }
+          },
+          "1600366595942": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Our Team",
+              "align_text": "center",
+              "alt": false,
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/Pat_1.jpg",
+              "image_width_1": 650,
+              "title_1": "Pat<br>Co-Founder",
+              "text_1": "<p>The original ocean activist at 12 Tides, Pat is our founder and visionary. Making his start in the traditional seafood industry, he was disheartened by its unsustainable practices and negative impacts, from overfishing and pollution to coastline destruction. Today, Pat is on a mission to show the world how our everyday food and lifestyle choices have the power to positively impact our oceans and the future of our planet.<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/Lindsey.jpg",
+              "image_width_2": 650,
+              "title_2": "Lindsey<br>Co-Founder",
+              "text_2": "<p>With childhood memories of the Jersey Shore, Lindsey is intent on preserving the ocean for future generations. Her experience working for a sustainable chocolate company taught her ocean-friendly food didn’t have to compromise on flavor. It’s a message she’s passionate about as our Head of Brand, advocating for snacks that are as flavorful as they are responsible and setting the benchmark for companies around the globe.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/Allison_1.jpg",
+              "image_width_3": 650,
+              "title_3": "Allison<br>Social Media Manager",
+              "text_3": "<p>Allison is the voice of our social media channels. An avid traveler who’s traversed countries like Indonesia and the Philippines, she’s witnessed just how single-use plastics—much of which is actually produced here at home in the US—pollute island nations on the other side of the planet. So, she shows up online every day to share our mission and start ocean activism conversations with savvy snackers like you.<\/p>",
+              "button_label_3": "",
+              "enable_image_4": true,
+              "image_width_4": 650,
+              "title_4": "Allison",
+              "text_4": "<p>Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.<\/p>",
+              "button_label_4": "",
+              "css_class": "our-story-team"
+            }
+          },
+          "1558643431127": {
+            "type": "collection-slider",
+            "settings": {
+              "title": "Get Snacking",
+              "description": "With an umami kick and a satisfying crunch, our puffed kelp chips will delight your tastebuds while restoring our oceans. Pop a bag open and see for yourself.",
+              "collection": "all",
+              "per_row": "medium",
+              "alt": false,
+              "css_class": "our-story-collection"
+            }
+          }
+        },
+        "block_order": [
+          "8c568869-566e-48ea-ac03-33158f6c5b18",
+          "d6e839d8-078b-47a5-939e-ffeb782f66ee",
+          "1600380647349",
+          "1558643031646",
+          "b18c6ab6-cde0-4a12-bd40-47a622f8a625",
+          "d2902c6f-6aaa-4c7c-9ab7-edb4f2463133",
+          "fa119f42-634c-4ce5-aff5-bbfe09f2fa20",
+          "4a09dd81-3b0a-4007-a6c2-258b342b9d00",
+          "1600366595942",
+          "1558643431127"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save 10%",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with free &#x27;muchseas&#x27; or exclusive offers. <\/p>",
+          "enable_newsletter": true,
+          "button_label": ""
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical"
+        }
+      },
+      "1558626745581": {
+        "type": "featured-content",
+        "settings": {
+          "bg_color": "#e6ddd0",
+          "top_wave": true,
+          "subtitle": "Why Kelp",
+          "title": "Our favorite ocean plant",
+          "text": "<p>Packed with vitamins, minerals and antioxidants, our kelp chips are nutrient-dense and delicious. Plus, kelp is a climate-change superhero.<\/p>",
+          "align_text": "center",
+          "narrow_column": true,
+          "enlarge_text": false,
+          "bot_margin": true,
+          "alt": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "per_row": "small"
+        }
+      },
+      "1559585995085": {
+        "type": "featured-collection-slider",
+        "settings": {
+          "title": "OUR ORGANIC KELP SNACKS",
+          "description": "",
+          "home_featured_products": "coll",
+          "per_row": "medium",
+          "bot_margin": false,
+          "top_margin": true,
+          "alt": false
+        }
+      },
+      "1559687247066": {
+        "type": "text-and-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/organic-kelp-snacks_905ea31e-29ff-4a87-946a-8ecfc63958e5.png",
+          "image_width": 700,
+          "subtitle": "OCEAN-FRIENDLY, ORGANIC <br>KELP SNACKS",
+          "title": "Kelp chips to the rescue",
+          "text": "<p>If you’re anything like us, you believe snacks should be delicious, good for you and good for the planet—and you’re not willing to settle for anything less. We’re with you. These puffed kelp chips pack an umami kick and satisfying crunch while nourishing your body and restoring our oceans.<\/p>",
+          "button_label": "Shop The Snacks",
+          "button_link": "shopify:\/\/products\/puffed-kelp-chips",
+          "button_style": "secondary",
+          "layout": "right",
+          "bot_margin": true,
+          "alt": false,
+          "css_class": "kelp-chips-text-img"
+        }
+      },
+      "social": {
+        "type": "social",
+        "settings": {
+          "enable_home": false,
+          "enable_product": false,
+          "enable_collection": false,
+          "title": "On social",
+          "description": "<p>Send us yours <a href=\"https:\/\/instagram.com\/youraccount\/\">@youraccount<\/a><\/p>"
+        }
+      },
+      "1599669341033": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1599669341033-0": {
+            "type": "image",
+            "settings": {
+              "title": "Tide yourself over",
+              "title_size": 76,
+              "subheading": "When sea-salty cravings strike, save your taste buds and our oceans with a good-for-you, good-for-the planet snack.",
+              "link": "shopify:\/\/collections\/all",
+              "link_text": "SHOP THE SNACKS",
+              "color_accent": "#345d9d",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/12Tides-1.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/12Tides-2.jpg",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "1599669341033-0"
+        ],
+        "settings": {
+          "style": "dots",
+          "desktop_size": 0,
+          "mobile_size": 50,
+          "autoplay": false,
+          "autoplay_speed": 5
+        }
+      },
+      "collection-header": {
+        "type": "collection-header",
+        "settings": {
+          "collection_image_enable": true,
+          "description_enable": true
+        }
+      },
+      "collection-filters": {
+        "type": "collection-filters",
+        "settings": {
+          "filter_type": "groups",
+          "tags_combine": false,
+          "collection_sort_enable": false
+        }
+      },
+      "1600379014650": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "Our Impact",
+          "title": "More than a snack",
+          "text": "<p>How can snacks make a difference? Not only is the kelp we source zero input, we give back 1% of our profits to restoring kelp forests in California, reversing climate change one kelp chip at a time.<\/p>",
+          "button_label": "Our Ocean ACTIVISM",
+          "button_link": "shopify:\/\/pages\/our-impact",
+          "image": "shopify:\/\/shop_images\/Rectangle_628.jpg",
+          "mobile_image": "shopify:\/\/shop_images\/Rectangle_628.jpg",
+          "desktop_size": 0,
+          "image_alignment": "center center",
+          "color_border": "#345d9d",
+          "layout": "right",
+          "css_class": ""
+        }
+      },
+      "1600379053881": {
+        "type": "logo-list",
+        "disabled": true,
+        "blocks": {
+          "1600379053881-0": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "1600379053881-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/0002_usda-blk.png"
+            }
+          },
+          "1600379053881-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/0003_certified-blk_41d78876-c663-433b-99f4-bd0df02e1ca0.png"
+            }
+          },
+          "1600379053881-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/0001_compostable-blk.png"
+            }
+          }
+        },
+        "block_order": [
+          "1600379053881-0",
+          "1600379053881-1",
+          "1600379053881-2",
+          "1600379053881-3"
+        ],
+        "settings": {
+          "title": "Certification Logos Here",
+          "logo_opacity": 100,
+          "top_margin": false,
+          "alt": false
+        }
+      },
+      "1603837762fafdf00f": {
+        "type": "maestrooo-instagram",
+        "settings": {
+          "title": "Join the conservation conversation",
+          "subheading": "<p>Follow us <a href=\"https:\/\/www.instagram.com\/12tides\/\" title=\"https:\/\/www.instagram.com\/12tides\/\" target=\"_blank\">@12tides<\/a> to join the conversation on ocean conservation.<\/p>",
+          "button_text": "",
+          "layout": "collage",
+          "image_size": "small",
+          "full_width": true,
+          "add_spacing": true,
+          "rows_count": 2,
+          "show_author": false,
+          "show_caption": false,
+          "show_date": false,
+          "click_action": "open_instagram",
+          "heading_color": "#333333",
+          "subheading_color": "#333333",
+          "button_background": "#345d9d",
+          "button_color": "#ffffff",
+          "overlay_color": "#345d9d",
+          "overlay_text_color": "#ffffff",
+          "overlay_opacity": 90
+        }
+      },
+      "1604271434c7f996c4": {
+        "type": "logo-list-two-columns",
+        "blocks": {
+          "1604271434c7f996c4-0": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "left",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__Organic.png",
+              "text": "Organic"
+            }
+          },
+          "1604271434c7f996c4-1": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "left",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__Plant_Based.png",
+              "text": "Plant-Based"
+            }
+          },
+          "1604271434c7f996c4-2": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "left",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__Gluten_Free.png",
+              "text": "Gluten-Free"
+            }
+          },
+          "1604271434c7f996c4-3": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "left",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__No_Added_Sugar.png",
+              "text": "No Added Sugar"
+            }
+          },
+          "368cf854-3459-4413-85bf-e1edefd0ff20": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "right",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__Regenerative_Ocean_Farming.png",
+              "text": "Regeneratively Farmed"
+            }
+          },
+          "334a305c-45d1-4470-bef3-1573c073be23": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "right",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__Restoring_Kelp_Forests.png",
+              "text": "Removes Excess Oceanic Carbon"
+            }
+          },
+          "0d5b28a3-4b05-427f-a83f-e47ef47eb57c": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "right",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__Ocean-Friendly.png",
+              "text": "Restores Ocean Ecosystems"
+            }
+          },
+          "6b4fce88-59a2-49e7-90a2-b1a1a65d20a6": {
+            "type": "logo_image",
+            "settings": {
+              "column_selection": "right",
+              "image": "shopify:\/\/shop_images\/12Tides_Web_Icons__North_American_Kelp.png",
+              "text": "Supports Eco-Farmers"
+            }
+          }
+        },
+        "block_order": [
+          "1604271434c7f996c4-0",
+          "1604271434c7f996c4-1",
+          "1604271434c7f996c4-2",
+          "1604271434c7f996c4-3",
+          "368cf854-3459-4413-85bf-e1edefd0ff20",
+          "334a305c-45d1-4470-bef3-1573c073be23",
+          "0d5b28a3-4b05-427f-a83f-e47ef47eb57c",
+          "6b4fce88-59a2-49e7-90a2-b1a1a65d20a6"
+        ],
+        "settings": {
+          "bg_color": "#e6ddd0",
+          "title": "",
+          "left_col": "The Snack",
+          "right_col": "The Kelp",
+          "logo_opacity": 76,
+          "top_margin": true,
+          "bot_margin": true,
+          "alt": false
+        }
+      },
+      "1604273348dce113b5": {
+        "type": "advanced-content",
+        "blocks": {
+          "1604273348dce113b5-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"white-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1604273348dce113b5-1"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false,
+          "alt": false
+        }
+      },
+      "page-sections2-template": {
+        "type": "page-sections2-template",
+        "blocks": {
+          "a1a13817-8143-4b05-883b-dabb47cd2bda": {
+            "type": "page-title-text",
+            "settings": {
+              "subtitle": "The truth is our snacks are nothing without the ocean. We’re ocean activists at heart. With 12 Tides, we’re turning the tides on climate change, one kelp chip at a time.",
+              "image": "shopify:\/\/shop_images\/DSC_2656.jpg"
+            }
+          },
+          "b4076b95-2f47-41a6-9faa-4657bbe145a7": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1; top: -250px; overflow: hidden;\" class=\"our-impact-top-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/our-impact-top-wave.svg?v=1605048182\" width=\"100%\">\n<\/div>"
+            }
+          },
+          "313c9cc2-0bdc-42af-b400-835444f99e85": {
+            "type": "page-text-subtitle",
+            "settings": {
+              "bg_color": "#e6ddd0",
+              "top_wave": false,
+              "subtitle": "Creating Ocean-Positive Food",
+              "title": "Regenerative ocean farming",
+              "text": "<p>Partnering with regenerative ocean farmers, we’re doing our part to remove carbon from our oceans, improving water quality while providing a habitat for biodiverse marine life.<\/p>",
+              "align_text": "center",
+              "css_class": "our-impact-regen-farming"
+            }
+          },
+          "c506fe09-3c20-49c8-b952-05a7280c018d": {
+            "type": "four-box-cards",
+            "settings": {
+              "bg_color": "#e6ddd0",
+              "image_1": "shopify:\/\/shop_images\/Group.png",
+              "title_1": "Regenerative Ocean Foods",
+              "text_1": "Kelp absorbs carbon from the ocean, reversing acidification and supporting biodiversity.",
+              "image_2": "shopify:\/\/shop_images\/Group_1.png",
+              "title_2": "Zero-input crop",
+              "text_2": "Kelp farming requires no pesticides, no fertilizers, no arable land, and no fresh water.",
+              "image_3": "shopify:\/\/shop_images\/Group_2.png",
+              "title_3": "Produces Nutrient-Rich Food that is also tasty!",
+              "text_3": "Kelp is rich in vitamins and minerals and has an umami-packed flavor.",
+              "image_4": "shopify:\/\/shop_images\/Group_3.png",
+              "title_4": "Supports coastal communities",
+              "text_4": "Our kelp is sourced directly from small-scale ocean farmers in North America.",
+              "css_class": ""
+            }
+          },
+          "8ddc9c19-6090-44ae-8f2b-1cf9cc138318": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"our-impact-white-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>"
+            }
+          },
+          "760a058b-b58f-47f0-a293-2bde8d29ad86": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/our-impact.png",
+              "image_width": 700,
+              "subtitle": "Restoring Oceans",
+              "title": "Kelp forest restoration",
+              "text": "<p>We support ocean restoration projects around the world, including SeaTrees’ initiative to restore kelp forests along the California coast through 1% for the Planet.<\/p><p><\/p>",
+              "button_label": "Meet SeaTrees",
+              "button_link": "https:\/\/sea-trees.org\/",
+              "button_style": "primary",
+              "layout": "right",
+              "icon_img": "shopify:\/\/shop_images\/4.jpg",
+              "alt": false,
+              "css_class": "our-impact-kelp-resto"
+            }
+          },
+          "2dbc5ab4-859f-492d-a8b1-fa3aed8f5f1d": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/compostable-packaging.jpg",
+              "image_width": 700,
+              "subtitle": "Reducing Waste",
+              "title": "Compostable Packaging",
+              "text": "<p>Our snacks disappear pretty fast, and we think our packaging should too. 100% compostable in municipal facilities, our packaging is ocean-friendly and free from plastic.<\/p>",
+              "button_label": "Learn More",
+              "button_link": "shopify:\/\/products\/puffed-kelp-chips",
+              "button_style": "primary",
+              "layout": "left",
+              "alt": false,
+              "css_class": "our-impact-compost"
+            }
+          },
+          "e213e1e9-d108-41cb-939d-82fcbbaa1e00": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1440 320\"><path fill=\"#6DABE2\" fill-opacity=\"1\" d=\"M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,138.7C672,128,768,128,864,149.3C960,171,1056,213,1152,229.3C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z\"><\/path><\/svg>"
+            }
+          },
+          "b5f0786e-fc63-4589-afd2-c8f33a5e5e39": {
+            "type": "big-text-icons",
+            "settings": {
+              "bg_color": "#6dabe2",
+              "main_text": "We’ve helped reforest <br><span>339.4 square feet<\/span><br> of kelp along California’s coast.",
+              "icon1": "shopify:\/\/shop_images\/Organic4colorseal-B_W_1.png",
+              "icon2": "shopify:\/\/shop_images\/2018-B-Corp-Logo-B_W_1.png",
+              "icon3": "shopify:\/\/shop_images\/1ftp_BusinessMember_Vertical_B_W_1.png",
+              "icon4": "shopify:\/\/shop_images\/ABA-Seedling-Logo_B_W_1.png",
+              "css_class": "our-impact-big-text-icons"
+            }
+          },
+          "d01b5845-e988-4ac6-9d6b-5de23ea3e8a5": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1440 320\" style=\"margin-top: -3px;\"><path fill=\"#6DABE2\" fill-opacity=\"1\" d=\"M0,128L48,149.3C96,171,192,213,288,218.7C384,224,480,192,576,170.7C672,149,768,139,864,154.7C960,171,1056,213,1152,218.7C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z\"><\/path><\/svg>"
+            }
+          },
+          "d70d8991-464a-4db1-aa1a-55ddf6a35665": {
+            "type": "collection-slider",
+            "settings": {
+              "title": "Our Organic Kelp Snacks",
+              "description": "",
+              "collection": "all",
+              "per_row": "medium",
+              "alt": false,
+              "css_class": "our-impact-coll"
+            }
+          }
+        },
+        "block_order": [
+          "a1a13817-8143-4b05-883b-dabb47cd2bda",
+          "b4076b95-2f47-41a6-9faa-4657bbe145a7",
+          "313c9cc2-0bdc-42af-b400-835444f99e85",
+          "c506fe09-3c20-49c8-b952-05a7280c018d",
+          "8ddc9c19-6090-44ae-8f2b-1cf9cc138318",
+          "760a058b-b58f-47f0-a293-2bde8d29ad86",
+          "2dbc5ab4-859f-492d-a8b1-fa3aed8f5f1d",
+          "e213e1e9-d108-41cb-939d-82fcbbaa1e00",
+          "b5f0786e-fc63-4589-afd2-c8f33a5e5e39",
+          "d01b5845-e988-4ac6-9d6b-5de23ea3e8a5",
+          "d70d8991-464a-4db1-aa1a-55ddf6a35665"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "collection--page-title-text": {
+        "type": "collection--page-title-text",
+        "settings": {
+          "title": "Tasty, Ocean-Friendly Snacks",
+          "subtitle": "With an umami kick and a satisfying crunch, our puffed kelp chips will delight your tastebuds while restoring our oceans. Pop a bag open and see for yourself.",
+          "image": "shopify:\/\/shop_images\/DSC_2682-2.jpg"
+        }
+      },
+      "collection--custom-html": {
+        "type": "collection--custom-html",
+        "settings": {
+          "full_width": true,
+          "space_around": false,
+          "alt": false,
+          "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"our-story-top-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>"
+        }
+      },
+      "background-image-text": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "Our Impact",
+          "title": "More than a Snack",
+          "text": "<p>How can snacks make a difference? Not only is the kelp  we source zero input, we give back 1% of our profits to  restoring kelp forests in  California, reversing climate change one kelp chip at a time.<\/p>",
+          "button_label": "Our Ocean Activism",
+          "button_link": "shopify:\/\/pages\/our-impact",
+          "image": "shopify:\/\/shop_images\/Rectangle_628.jpg",
+          "mobile_image": "shopify:\/\/shop_images\/Rectangle_628.jpg",
+          "desktop_size": 0,
+          "image_alignment": "center center",
+          "color_border": "#f4f4f4",
+          "layout": "right",
+          "css_class": "collection-more-than-snack"
+        }
+      },
+      "collection--custom-html2": {
+        "type": "collection--custom-html2",
+        "settings": {
+          "full_width": true,
+          "space_around": false,
+          "alt": false,
+          "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"collection-white-wave\">\n<svg viewbox=\"0 0 500 150\" preserveaspectratio=\"none\" style=\"height: 100%; width: 100%;\"><path d=\"M-12.97,31.08 C95.93,66.61 261.84,-21.20 502.25,37.98 L500.00,0.00 L0.00,0.00 Z\" style=\"stroke: none; fill: #fff;\"><\/path><\/svg>\n<\/div>"
+        }
+      },
+      "16051584959101292e": {
+        "type": "hero-animated",
+        "blocks": {
+          "16051584958f6e7f53-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/12Tides-1.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/12Tides-2.jpg",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "16051584958f6e7f53-0"
+        ],
+        "settings": {
+          "style": "fading",
+          "title": "Tide Yourself Over",
+          "title_size": 76,
+          "subheading": "When sea-salty cravings strike, save your taste buds and our oceans with a good-for-you, good-for-the planet snack.",
+          "link": "shopify:\/\/products\/puffed-kelp-chips",
+          "link_text": "Shop the Snacks",
+          "color_accent": "#345d9d",
+          "text_align": "vertical-center horizontal-left",
+          "desktop_size": -10,
+          "mobile_size": 0
+        }
+      },
+      "16051589991df93435": {
+        "type": "advanced-content",
+        "blocks": {
+          "16051589991df93435-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"position: relative; display: block; width: 100%; z-index: 1;margin-top:-225px;\" class=\"homepage-bottom-white-wave\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1440 320\">\n  <path fill=\"#FFF\" fill-opacity=\"1\" d=\"M0,160L80,154.7C160,149,320,139,480,144C640,149,800,171,960,176C1120,181,1280,171,1360,165.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z\"><\/path>\n<\/svg>\n<\/div>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "16051589991df93435-1"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false,
+          "alt": false
+        }
+      },
+      "16051590885b9e148b": {
+        "type": "advanced-content",
+        "blocks": {
+          "16051590885b9e148b-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1; margin-top:-3px;\">\n<svg viewbox=\"0 0 500 150\" preserveaspectratio=\"none\" style=\"height: 100%; width: 100%;\"><path d=\"M-12.97,31.08 C95.93,66.61 261.84,-21.20 502.25,37.98 L500.00,0.00 L0.00,0.00 Z\" style=\"stroke: none; fill: #fff;\"><\/path><\/svg>\n<\/div>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "16051590885b9e148b-1"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false,
+          "alt": false
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Shipping policy",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Where do you ship to?",
+              "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "How long will my order take?",
+              "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Returns and exchanges",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "question",
+            "settings": {
+              "title": "How do I ship my order back to you?",
+              "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": false
+        }
+      },
+      "contact--page-title-text": {
+        "type": "contact--page-title-text",
+        "settings": {
+          "title": "Contact Us",
+          "subtitle": "Questions? Comments? We would love to hear from you.",
+          "image": "shopify:\/\/shop_images\/contact-us.jpg"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "be5402e9-910b-4a67-912c-1840089e7531": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": true,
+              "space_around": false,
+              "alt": false,
+              "code": "<div style=\"position: absolute; display: block; width: 100%; z-index: 1;\" class=\"our-story-top-wave\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/5599\/9894\/files\/Wave_Illustration_whitebg.svg?v=1604094042\" style=\"width: 100%;\">\n<\/div>"
+            }
+          },
+          "50711cd7-a911-4191-b659-3389651c6226": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Please fill out the form below and we will try to get back to you as soon as possible.<\/p>",
+              "align_text": "center",
+              "custom_class": "our-story-rte",
+              "narrow_column": true,
+              "enlarge_text": true,
+              "alt": false
+            }
+          },
+          "page-contact-template-0": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "be5402e9-910b-4a67-912c-1840089e7531",
+          "50711cd7-a911-4191-b659-3389651c6226",
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "blog--page-title-text": {
+        "type": "blog--page-title-text",
+        "settings": {
+          "title": "BEYOND THE REEF",
+          "subtitle": "Welcome to the 12 Tides blog! We are ocean activists at heart. In Beyond the Reef, we are highlighting impactful initiatives and organizations dedicated to protecting and restoring our oceans. We will also keep you updated on the latest news from 12 Tides.",
+          "image": "shopify:\/\/shop_images\/beyond-the-reef.jpg"
+        }
+      }
+    },
+    "content_for_index": [
+      "1599669341033",
+      "16051584959101292e",
+      "1604273348dce113b5",
+      "1559687247066",
+      "1558626745581",
+      "1604271434c7f996c4",
+      "1559585995085",
+      "16051590885b9e148b",
+      "1600379014650",
+      "16051589991df93435",
+      "1600379053881",
+      "1603837762fafdf00f"
+    ]
+  },
+  "presets": {
+    "Core": {
+      "animate_images": true,
+      "animate_page_transition_style": "page-logo",
+      "button_style": "round",
+      "button_type_style": "normal",
+      "cart_type": "sticky",
+      "checkout_accent_color": "#111111",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#111111",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_use_header_image": false,
+      "color_alt_bg": "#f9f9f9",
+      "color_alt_text": "#000000",
+      "color_announcement": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_button": "#000000",
+      "color_button_text": "#ffffff",
+      "color_cart_dot": "#f75d44",
+      "color_cart_dot_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 10,
+      "color_image_overlay_text_shadow": 20,
+      "color_image_text": "#ffffff",
+      "color_large_image_bg": "#000000",
+      "color_newsletter": "#000000",
+      "color_newsletter_text": "#fff",
+      "color_sale_price": "#000000",
+      "color_sale_tag": "#990000",
+      "color_small_image_bg": "#ffffff",
+      "desktop_loader_width": 100,
+      "mobile_loader_width": 100,
+      "product_grid_image_size": "natural",
+      "product_hover_details": false,
+      "product_hover_image": true,
+      "product_image_scatter": false,
+      "product_video_style": "muted",
+      "reviews_layout": "full",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+      "type_base_font_family": "roboto_condensed_n4",
+      "type_base_line_height": 1.6,
+      "type_base_size": 18,
+      "type_base_spacing": "25",
+      "type_header_base_size": 46,
+      "type_header_capitalize": true,
+      "type_header_font_family": "roboto_condensed_i7",
+      "type_header_line_height": 1,
+      "type_header_spacing": "-25",
+      "type_product_capitalize": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": true,
+            "show_announcement": false,
+            "show_announcement_home_only": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "show_newsletter": true,
+            "show_social_icons": true,
+            "menu": "footer",
+            "newsletter_title": "Join the club",
+            "newsletter_richtext": "",
+            "show_payment_icons": false,
+            "show_copyright": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row_desktop": 3
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {}
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_image": true,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "product-sections": {
+          "type": "product-sections",
+          "blocks": {
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+                "title": "Why choose us?",
+                "align_text": "center",
+                "alt": true,
+                "enable_image_1": false,
+                "image_width_1": 650,
+                "title_1": "Reason one",
+                "text_1": "<p>Use this section to explain your company philosophy or standards. Add images for emphasis. This content will appear on all products.<\/p>",
+                "enable_image_2": false,
+                "image_width_2": 650,
+                "title_2": "Reason two",
+                "text_2": "<p>Use this section to explain your company philosophy or standards. Add images for emphasis. This content will appear on all products.<\/p>",
+                "enable_image_3": false,
+                "image_width_3": 650,
+                "title_3": "",
+                "text_3": ""
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 700,
+                "text": "<p>Pair large text with an image to tell a story, explain a detail about your products, or describe a new promotion.<\/p>",
+                "button_style": "primary",
+                "layout": "right"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            }
+          },
+          "block_order": [
+            "product-text-columns",
+            "product-text-and-image",
+            "product-background-image-text"
+          ],
+          "settings": {}
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "1559681273277": {
+              "type": "image-hero",
+              "settings": {
+                "title_size": 80,
+                "text_align": "vertical-center horizontal-center"
+              }
+            },
+            "1558643031646": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 450,
+                "button_style": "primary",
+                "layout": "right"
+              }
+            },
+            "1558643392013": {
+              "type": "map",
+              "settings": {}
+            },
+            "1558643431127": {
+              "type": "collection-slider",
+              "settings": {
+                "per_row": "large"
+              }
+            },
+            "1558643225272": {
+              "type": "hero-video",
+              "settings": {
+                "title": "Keep it short\nand sweet.",
+                "title_size": 60,
+                "subheading": "Explain your brand in more depth on your product pages",
+                "text_align": "vertical-center horizontal-center",
+                "section_height": "750px",
+                "mobile_height": "100vh"
+              }
+            }
+          },
+          "block_order": [
+            "1559681273277",
+            "1558643031646",
+            "1558643392013",
+            "1558643431127",
+            "1558643225272"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": true
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_seconds": 5,
+            "popup_days": 30,
+            "enable_newsletter": true
+          }
+        },
+        "1543003878234": {
+          "type": "featured-collections",
+          "blocks": {
+            "1543003878234-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1543003878234-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1543003878234-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1543003878234-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1543003878234-0",
+            "1543003878234-1",
+            "1543003878234-2",
+            "1543003878234-3"
+          ],
+          "settings": {
+            "alt": true,
+            "title": "Shop all"
+          }
+        },
+        "list-collections-template": {
+          "type": "list-collections-template",
+          "settings": {}
+        },
+        "1556162802939": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row_desktop": 4,
+            "per_row_mobile": "2",
+            "description": "For more traditional layouts"
+          }
+        },
+        "1556162914490": {
+          "type": "featured-collection-slider",
+          "settings": {
+            "description": "With infinite scrolling"
+          }
+        },
+        "1558626745581": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true
+          }
+        },
+        "1559096311192": {
+          "type": "hero-animated",
+          "blocks": {
+            "1559096311192-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "1559097202495": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1559096311192-0",
+            "1559097202495"
+          ],
+          "settings": {
+            "style": "gif",
+            "title": "Make an impression",
+            "title_size": 80,
+            "text_align": "vertical-center horizontal-center"
+          }
+        },
+        "1559098181700": {
+          "type": "slideshow",
+          "blocks": {
+            "1559098181700-0": {
+              "type": "image",
+              "settings": {
+                "title_size": 80,
+                "text_align": "vertical-bottom horizontal-left"
+              }
+            }
+          },
+          "block_order": [
+            "1559098181700-0"
+          ],
+          "settings": {}
+        },
+        "1559321610782": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Keep it short\nand sweet.",
+            "title_size": 80,
+            "subheading": "Explain your brand in more depth on your product pages",
+            "text_align": "vertical-bottom horizontal-center",
+            "section_height": "750px",
+            "mobile_height": "100vh"
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        },
+        "1559585995085": {
+          "type": "featured-collection-slider",
+          "settings": {
+            "description": "With infinite scrolling"
+          }
+        },
+        "1559586187853": {
+          "type": "marquee",
+          "settings": {
+            "text": "Follow us for monthly apparel giveaways",
+            "text_size": 36
+          }
+        },
+        "1559687247066": {
+          "type": "text-and-image",
+          "settings": {
+            "image_width": 700,
+            "button_label": "Our story",
+            "button_style": "secondary",
+            "layout": "right"
+          }
+        },
+        "1559687361077": {
+          "type": "text-and-image",
+          "settings": {
+            "image_width": 700,
+            "button_label": "Contact us",
+            "button_style": "secondary",
+            "layout": "left"
+          }
+        },
+        "1559687710135": {
+          "type": "map",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "1559321610782",
+        "1559585995085",
+        "1558626745581",
+        "1559096311192",
+        "1556162914490",
+        "1559098181700",
+        "1556162802939",
+        "1543003878234",
+        "1559687247066",
+        "1559687361077",
+        "1559687710135",
+        "1559586187853"
+      ]
+    },
+    "Luxe": {
+      "animate_images": true,
+      "animate_page_transition_style": "page-logo",
+      "button_style": "shadow",
+      "cart_type": "sticky",
+      "checkout_accent_color": "#111111",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#111111",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_use_header_image": false,
+      "color_alt_bg": "#ffffff",
+      "color_alt_text": "#333029",
+      "color_announcement": "#c67066",
+      "color_announcement_text": "#ffffff",
+      "color_body_bg": "#fdfbfa",
+      "color_body_text": "#333029",
+      "color_button": "#c67066",
+      "color_button_text": "#ffffff",
+      "color_cart_dot": "#c67066",
+      "color_drawer_background": "#fdf9f5",
+      "color_drawer_text": "#333029",
+      "color_image_bg": "#000000",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 10,
+      "color_image_text": "#ffffff",
+      "color_large_image_bg": "#eee5e0",
+      "color_newsletter": "#c67066",
+      "color_newsletter_text": "#ffffff",
+      "color_sale_price": "#333029",
+      "color_sale_tag": "#c67066",
+      "color_small_image_bg": "#fdfbfa",
+      "desktop_loader_width": 140,
+      "mobile_loader_width": 130,
+      "product_grid_image_size": "natural",
+      "product_hover_details": true,
+      "product_hover_image": true,
+      "product_image_scatter": false,
+      "product_video_style": "muted",
+      "reviews_layout": "full",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+      "type_base_font_family": "futura_n4",
+      "type_base_line_height": 1.7,
+      "type_base_size": 18,
+      "type_base_spacing": "25",
+      "type_header_base_size": 50,
+      "type_header_capitalize": false,
+      "type_header_font_family": "itc_novarese_n5",
+      "type_header_line_height": 1.1,
+      "type_header_spacing": "0",
+      "type_product_capitalize": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_index": true,
+            "sticky_collection": true,
+            "header_search_enable": true,
+            "show_announcement": true,
+            "show_announcement_home_only": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "show_newsletter": true,
+            "show_social_icons": true,
+            "show_payment_icons": false,
+            "show_copyright": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row_desktop": 3
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {}
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_image": false,
+            "blog_show_tags": true,
+            "blog_show_date": false,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": false
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": false,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "product-sections": {
+          "type": "product-sections",
+          "blocks": {
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+                "title": "Why choose us?",
+                "align_text": "center",
+                "alt": true,
+                "enable_image_1": false,
+                "image_width_1": 650,
+                "title_1": "Reason one",
+                "text_1": "<p>Use this section to explain your company philosophy or standards. Add images for emphasis. This content will appear on all products.<\/p>",
+                "enable_image_2": false,
+                "image_width_2": 650,
+                "title_2": "Reason two",
+                "text_2": "<p>Use this section to explain your company philosophy or standards. Add images for emphasis. This content will appear on all products.<\/p>",
+                "enable_image_3": false,
+                "image_width_3": 650,
+                "title_3": "",
+                "text_3": ""
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 700,
+                "text": "<p>Pair large text with an image to tell a story, explain a detail about your products, or describe a new promotion.<\/p>",
+                "button_style": "primary",
+                "layout": "right"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            }
+          },
+          "block_order": [
+            "product-text-columns",
+            "product-text-and-image",
+            "product-background-image-text"
+          ],
+          "settings": {}
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "1558643031646": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 400,
+                "button_style": "primary",
+                "layout": "right"
+              }
+            },
+            "1558643225272": {
+              "type": "hero-video",
+              "settings": {
+                "title": "Keep it short\nand sweet.",
+                "title_size": 47,
+                "subheading": "Explain your brand in more depth on your product pages",
+                "text_align": "vertical-center horizontal-center",
+                "section_height": "750px",
+                "mobile_height": "100vh"
+              }
+            },
+            "1558643431127": {
+              "type": "collection-slider",
+              "settings": {
+                "per_row": "small"
+              }
+            },
+            "1558643392013": {
+              "type": "map",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1558643031646",
+            "1558643225272",
+            "1558643431127",
+            "1558643392013"
+          ],
+          "settings": {
+            "page_title_enable": true,
+            "page_content_enable": true
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_seconds": 5,
+            "popup_days": 30,
+            "enable_newsletter": true
+          }
+        },
+        "list-collections-template": {
+          "type": "list-collections-template",
+          "settings": {
+            "title_enable": true,
+            "display_type": "all"
+          }
+        },
+        "1555097143929": {
+          "type": "text-and-image",
+          "settings": {
+            "image_width": 700,
+            "button_style": "btn",
+            "layout": "right"
+          }
+        },
+        "1555439851826": {
+          "type": "background-image-text",
+          "settings": {
+            "color_border": "#4f1c3a",
+            "layout": "right"
+          }
+        },
+        "1556162802939": {
+          "type": "featured-collection-slider",
+          "settings": {}
+        },
+        "1556162914490": {
+          "type": "featured-collection-slider",
+          "settings": {}
+        },
+        "1558625522348": {
+          "type": "background-image-text",
+          "settings": {
+            "color_border": "#4f1c3a",
+            "layout": "left"
+          }
+        },
+        "1558626497917": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Keep it short\nand sweet.",
+            "title_size": 80,
+            "subheading": "Explain your brand in more depth on your product pages",
+            "text_align": "vertical-center horizontal-center",
+            "section_height": "750px",
+            "mobile_height": "100vh"
+          }
+        },
+        "1558626745581": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true
+          }
+        },
+        "1559155590855": {
+          "type": "text-columns",
+          "blocks": {
+            "1559155590855-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": false,
+                "title": "Reason one"
+              }
+            },
+            "1559155590855-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": false,
+                "title": "Reason two"
+              }
+            }
+          },
+          "block_order": [
+            "1559155590855-0",
+            "1559155590855-1"
+          ],
+          "settings": {
+            "title": "Why choose us?",
+            "align_text": "center",
+            "alt": true
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {}
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "newsletter_enable": true,
+            "show_share_buttons": false,
+            "show_image": true
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "per_row": "small"
+          }
+        }
+      },
+      "content_for_index": [
+        "1558626497917",
+        "1556162914490",
+        "1558626745581",
+        "1555097143929",
+        "1555439851826",
+        "1559155590855",
+        "1556162802939",
+        "1558625522348"
+      ]
+    },
+    "Hype": {
+      "animate_images": false,
+      "animate_page_transition_style": "page-logo",
+      "button_style": "shadow",
+      "cart_type": "sticky",
+      "checkout_accent_color": "#111111",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "color_alt_bg": "#000000",
+      "color_alt_text": "#ffffff",
+      "color_announcement": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_cart_dot": "#FF2300",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_image_bg": "#000000",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 10,
+      "color_image_text": "#ffffff",
+      "color_large_image_bg": "#000000",
+      "color_newsletter": "#000000",
+      "color_newsletter_text": "#ffffff",
+      "color_small_image_bg": "#f2f2f2",
+      "desktop_loader_width": 190,
+      "mobile_loader_width": 180,
+      "product_grid_image_size": "natural",
+      "product_hover_details": false,
+      "product_hover_image": true,
+      "product_image_scatter": true,
+      "product_video_style": "muted",
+      "reviews_layout": "full",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+      "type_base_font_family": "basic_commercial_n7",
+      "type_base_line_height": 1.3,
+      "type_base_size": 20,
+      "type_base_spacing": "25",
+      "type_header_base_size": 48,
+      "type_header_capitalize": true,
+      "type_header_font_family": "basic_commercial_n7",
+      "type_header_line_height": 0.9,
+      "type_header_spacing": "25",
+      "type_product_capitalize": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_index": true,
+            "sticky_collection": true,
+            "header_search_enable": true,
+            "show_announcement": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "show_newsletter": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row_desktop": 3
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {}
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_image": true,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "product-sections": {
+          "type": "product-sections",
+          "blocks": {
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+                "title": "Why choose us?",
+                "align_text": "center",
+                "alt": true,
+                "enable_image_1": false,
+                "image_width_1": 650,
+                "title_1": "Reason one",
+                "text_1": "<p>Use this section to explain your company philosophy or standards. Add images for emphasis. This content will appear on all products.<\/p>",
+                "enable_image_2": false,
+                "image_width_2": 650,
+                "title_2": "Reason two",
+                "text_2": "<p>Use this section to explain your company philosophy or standards. Add images for emphasis. This content will appear on all products.<\/p>",
+                "enable_image_3": false,
+                "image_width_3": 650,
+                "title_3": "",
+                "text_3": ""
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 700,
+                "text": "<p>Pair large text with an image to tell a story, explain a detail about your products, or describe a new promotion.<\/p>",
+                "button_style": "primary",
+                "layout": "right"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            }
+          },
+          "block_order": [
+            "product-text-columns",
+            "product-text-and-image",
+            "product-background-image-text"
+          ],
+          "settings": {}
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "1558643031646": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 400,
+                "button_style": "primary",
+                "layout": "right"
+              }
+            },
+            "1558643431127": {
+              "type": "collection-slider",
+              "settings": {
+                "per_row": "small"
+              }
+            }
+          },
+          "block_order": [
+            "1558643031646",
+            "1558643431127"
+          ],
+          "settings": {
+            "page_title_enable": true,
+            "page_content_enable": true
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_seconds": 5,
+            "popup_days": 30,
+            "enable_newsletter": true
+          }
+        },
+        "list-collections-template": {
+          "type": "list-collections-template",
+          "settings": {}
+        },
+        "1555097143929": {
+          "type": "text-and-image",
+          "settings": {}
+        },
+        "1556162802939": {
+          "type": "featured-collection-slider",
+          "settings": {}
+        },
+        "1556162914490": {
+          "type": "featured-collection-slider",
+          "settings": {}
+        },
+        "1559240039950": {
+          "type": "hero-animated",
+          "blocks": {
+            "1559240039950-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "1559240039950-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "1559309176406": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1559240039950-0",
+            "1559240039950-1",
+            "1559309176406"
+          ],
+          "settings": {
+            "style": "gif",
+            "title_size": 72,
+            "text_align": "vertical-bottom horizontal-right"
+          }
+        },
+        "1559241610369": {
+          "type": "marquee",
+          "settings": {
+            "text": "☞ FREE SHIPPING AND RETURNS",
+            "text_size": 70,
+            "text_spacing": true,
+            "color_scheme": "text",
+            "direction": "left"
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "per_row": "large"
+          }
+        },
+        "1559249041610": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Keep it short\nand sweet.",
+            "title_size": 80,
+            "subheading": "Explain your brand in more depth on your product pages",
+            "text_align": "vertical-bottom horizontal-left",
+            "section_height": "750px",
+            "mobile_height": "100vh"
+          }
+        }
+      },
+      "content_for_index": [
+        "1559240039950",
+        "1555097143929",
+        "1559241610369",
+        "1556162914490",
+        "1559249041610",
+        "1556162802939"
+      ]
+    }
+  }
+}
